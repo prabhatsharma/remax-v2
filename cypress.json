@@ -1,0 +1,10 @@
+{
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "reporter": "mochawesome.js",
+    "reporterOptions": {
+      "reportDir": "cypress/reports/separate-reports",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+}

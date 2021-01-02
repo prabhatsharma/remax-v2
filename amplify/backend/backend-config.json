@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "uiv2383dfe83": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "hosting": {},
+  "analytics": {
+    "uiv2": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

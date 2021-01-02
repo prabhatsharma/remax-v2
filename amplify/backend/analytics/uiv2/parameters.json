@@ -1,0 +1,21 @@
+{
+    "appName": "uiv2",
+    "roleName": "pinpointLambdaRole10b7df4a",
+    "cloudformationPolicyName": "cloudformationPolicy10b7df4a",
+    "cloudWatchPolicyName": "cloudWatchPolicy10b7df4a",
+    "pinpointPolicyName": "pinpointPolicy10b7df4a",
+    "authPolicyName": "pinpoint_amplify_10b7df4a",
+    "unauthPolicyName": "pinpoint_amplify_10b7df4a",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
